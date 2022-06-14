@@ -28,5 +28,97 @@
               </nav>
         </div>
     </header>
+
+    <div class="main">
+        <div class="container">
+            <aside class="aside">
+                <img src="./assets/img/my_photo.jpg" alt="Yaroslav Rudenko">
+    
+                <section class="section" id="contacts">
+                    <h3 class="section-title">Contacts</h3>
+                    <ul class="contacts-list">
+                        <li class="contacts-item">Location: Kyiv, Ukraine</li>
+                        <li class="contacts-item">Phone: <a class="contacts-link" href="tel:+380671214301">+38 067 121 43 01</a></li>
+                        <li class="contacts-item">E-mail: <a class="contacts-link" href="mailto:yaregr@gmail.com">yaregr@gmail.com</a></li>
+                        <li class="contacts-item">LinkedIn: <a href="https://www.linkedin.com/in/yaroslav-rudenko-a7107655/" class="contacts-link">Yaroslav Rudenko</a></li>
+                    </ul>
+                </section>
+
+                <section class="section" id="skills">
+                    <h3 class="section-title">Skills</h3>
+                    <ul class="section-list">
+                        <li class="list-item">HTML5, CSS3</li>
+                        <li class="list-item">JavaScript Basics</li>
+                        <li class="list-item">NodeJS</li>
+                        <li class="list-item">Git, GitHub</li>
+                        <li class="list-item">Adobe Photoshop, Illustrator, CorelDraw, Figma</li>
+                    </ul>
+                </section>
+            </aside>
+
+            <div class="main-block">
+                <h1 class="main-title">Yaroslav Rudenko</h1>
+                <h2 class="work-title">Junior Frontend Developer</h2>
+
+                <section class="section" id="about">
+                    <h3 class="section-title">About Me</h3>
+                    <p class="section-text">
+                        My goal is to learn full stack development (MERN) and create interesting and useful applications.
+                    </p>
+                </section>
+                
+                <section class="section" id="experience">
+                    <h3 class="section-title">Experience</h3>
+                    <ul class="section-list">
+                        <li class="list-item">2021 - Learning project</li>
+                        <li class="list-item">2020-2022 - Owner in advertising agency "Yard"</li>
+                        <li class="list-item">2017-2020 - Co-owner in digital printing "Bulla"</li>
+                        <li class="list-item">2004-2017 - Head of printing department "Vis-a-vis"</li>
+                    </ul>
+                </section>
+
+                <section class="section" id="education">
+                    <h3 class="section-title">Education</h3>
+                    <ul class="section-list">
+                        <li class="list-item">2021 - RS Schools Course "JavaScript/Front-end. Stage 0"</li>
+                        <li class="list-item">2021 - ProCode IT School "Full Stack"</li>
+                        <li class="list-item">2000-2005 - Kyiv National Economic University "Information Technologies in Economics"</li>
+                    </ul>
+                </section>
+
+                <section class="section" id="code">
+                    <h3 class="section-title">Code Example</h3>
+                    <pre>
+                        let form = document.forms.calculator;
+                        let resEl = document.querySelector('.result span');
+                        let multiplyBtn = document.querySelector('.multiplyBtn');
+
+                        multiplyBtn.addEventListener('click', (ev) => {
+                            ev.preventDefault();
+
+                            let formData = new FormData(form);
+
+                            let number1 = formData.get('number1');
+                            let number2 = formData.get('number2');
+                            let digits = formData.get('digits');
+
+                            let res = number1 * number2;
+                            let resDigit = Number (res.toFixed(digits));
+                            resEl.innerHTML = resDigit;
+                        });
+                    </pre>
+                </section>
+
+                <section class="section" id="languages">
+                    <h3 class="section-title">Languages</h3>
+                    <ul class="section-list">
+                        <li class="list-item">English - Pre-intermediate</li>
+                        <li class="list-item">Ukrainian - Native</li>
+                        <li class="list-item">Russian - Native</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

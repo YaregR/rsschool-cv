@@ -30,7 +30,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     margin: 0;
-    padding: 0 13px;
+    padding: 0 6px;
     list-style: none;
 }
 
@@ -49,4 +49,39 @@ body {
 .nav-link:hover {
     color: #1e2939;
     text-decoration: underline;
+}
+
+.main>.container {
+    display: flex;
+}
+
+
+.aside {
+    background-color: #1e2939;
+    color: white;
+}
+
+.aside section {
+    padding: 0 33px;
+}
+
+.aside img {
+    width: 347px;
+}
+
+.contacts-list {
+    list-style-type: none;
+}
+
+.contacts-link {
+    color: white;
+}
+
+.contacts-item,
+.list-item {
+    margin-top: 10px;
+}
+
+.main-block {
+    padding: 70px;
 }
