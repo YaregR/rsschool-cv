@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -35,7 +39,7 @@ body {
 }
 
 .nav-item:hover {
-    background-color: white;
+    background-color: #f5f0f0;
 }
 
 .nav-link {
@@ -49,6 +53,23 @@ body {
 .nav-link:hover {
     color: #1e2939;
     text-decoration: underline;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+#contacts:before,
+#about:before,
+#skills:before,
+#code:before,
+#experience:before,
+#education:before,
+#languages:before {
+    display: block;
+    content: "";
+    height: 55px;
+    margin: -55px 0 0;
 }
 
 .main>.container {
@@ -84,4 +105,22 @@ body {
 
 .main-block {
     padding: 70px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #1e2939;
+    padding: 0 33px;
+}
+
+.footer-content img {
+    width: 50px;
+    background-color: white;
+}
+
+.logo {
+    padding: 5px;
+    background-color: white;
 }
