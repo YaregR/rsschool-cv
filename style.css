@@ -103,6 +103,10 @@ body {
     margin-top: 10px;
 }
 
+.list-item a {
+    color: inherit;
+}
+
 .main-block {
     padding: 70px;
 }

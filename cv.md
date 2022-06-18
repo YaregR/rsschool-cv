@@ -48,7 +48,7 @@ multiplyBtn.addEventListener('click', (ev) => {
 ### Experience:
 
 - 2021 - Learning project [Photographer's gallery](https://github.com/YaregR/Gallery)
-- 2020-2021 - Owner in advertising agency [Yard](https://www.facebook.com/Yard2Print)
+- 2020-2022 - Owner in advertising agency [Yard](https://www.facebook.com/Yard2Print)
 - 2017-2020 - Co-owner in digital printing "Bulla"
 - 2004-2017 - Head of printing department "Vis-a-vis"
 
